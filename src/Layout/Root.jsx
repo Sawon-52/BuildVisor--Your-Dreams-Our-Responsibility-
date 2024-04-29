@@ -1,11 +1,10 @@
 import { Outlet } from "react-router-dom";
-import Home from "../Pages/Home/Home";
+// import Navber from "../Components/Navber/Navber";
 
 const Root = () => {
   return (
     <div>
-      <h2 className="text-3xl font-bold underline">This is Root Component</h2>
-      <Home></Home>
+      {/* <Navber></Navber> */}
       <Outlet></Outlet>
     </div>
   );
