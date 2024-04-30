@@ -28,7 +28,7 @@ const Banner = () => {
             <Link className="p-2 px-3 border-2 border-primary text-xl  text-black rounded-3xl hover:bg-primary hover:text-white duration-500">Explore More</Link>
           </button>
         </div>
-      </div>
+      </div> 
     </div>
   );
 };
